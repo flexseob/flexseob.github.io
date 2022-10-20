@@ -72,7 +72,7 @@
               Hi! I am Hoseob Jeong, I am Software/Graphics Programmer.
               <br>I have computer language skills(C++, OpenGL, Vulkan, GLSL, Javascript)
               <br>I can handle multiple tools (Visual Studio, Visual Studio Code, Git, Subversion, UnrealEngine, Ubuntu)
-              <br>I am looking for a computer/Graphics/Game programmer job.
+              <br>I am looking for a Software Engineer job.
               <br>I am interested in Game, Tech, and Crytocurrency.<br>
             </p>
             <p class="about-wrapper__info-text">
@@ -145,6 +145,47 @@
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
+    <!-- Each .row is a project -->
+    <div class="row">
+      <div class="project-wrapper__text">
+        <h3 class="project-wrapper__text-title">Image Processing Demo (OpenGL Engine)</h3>
+        <p class="project-wrapper__text-info">
+          Image Processing Engine Project - Personal Project.<br> With OpenGL, GLSL, C++<br>
+          - C++ Custom OpenGL Engine(Reused OpenGL Engine)<br>
+          - For fast computing image processing, Implemented compute shaders for processing method.<br>
+          - Bi-linear interpolation and nearest neighbor method for imaging re-scaling.<br>
+          - Imaging operation(addition, product, subtraction, negative, Log Transform, Gamma Transform).<br>
+          - 2Pass 4,8 connected-CCL(Connected Component labeling) algorithm<br>
+          - Image load and save<br>
+        </p>
+        <div class="project-wrapper__text-btns">
+          <a
+            href="https://youtu.be/ZxpjpFKcgF0"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="cta-btn cta-btn--hero cta-btn--projects"
+            >See Video</a
+          >
+          <a href="https://github.com/flexseob/Image_processing" target="_blank" class="cta-btn text-color-main"
+            >Source Code</a
+          >
+        </div>
+      </div>
+
+      <div class="project-wrapper__image">
+        <a href="https://youtu.be/ZxpjpFKcgF0" target="_blank" rel="noopener noreferrer">
+          <div class="thumbnail rounded">
+            <img
+              src="./assets/image_processing.png"
+              class="img-fluid"
+              alt="Project Image"
+            />
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- /END Project -->  
+
 
                   <!-- Each .row is a project -->
                   <div class="row">
@@ -154,7 +195,7 @@
                         Graphics Engine Project - Team Project.<br> With Vulkan, GLSL(SPIR-V), C++, Lua<br>
                         - ECS C++ Custom Vulkan Engine<br>
                         Graphics shader Tool.
-                        Multiple Lights, PBR(physics based rendering) with texture.<br>
+                        Multiple Lights, PBR(physics based rendering) with texture. Deferred Rendering<br>
                         Shader including system.<br>
                         Read and write Shader variable with SPIR-V reflect
                       </p>
